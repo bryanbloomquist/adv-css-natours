@@ -16,6 +16,10 @@
 
 .mb-md {
   margin-bottom: 3rem !important;
+  @include respond(tab-port) {
+    margin-bottom: 2.5rem !important;
+  }
+
 }
 
 .mt-lg {
@@ -24,5 +28,8 @@
 
 .mb-lg {
   margin-bottom: 8rem !important;
+  @include respond(tab-port) {
+    margin-bottom: 5rem !important;
+  }
 }
 
