@@ -17,7 +17,7 @@
 <body>
 
   <div class="navigation">
-    <input type="checkbox" class="navigation__checkbox" id="nav-toggle"/>
+    <input type="checkbox" class="navigation__checkbox" id="nav-toggle" />
     <label for="nav-toggle" class="navigation__button"><span class="navigation__icon">&nbsp;</span></label>
     <div class="navigation__background">&nbsp;</div>
     <nav class="navigation__nav">
@@ -59,17 +59,31 @@
 
         <div class="col-6">
           <h3 class="heading-tertiary mb-sm">You're going to fall in love with nature.</h3>
-          <p class="paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat quasi saepe quisquam ab at eveniet vero eaque, laboriosam laudantium dicta atque libero? Fuga tempora similique placeat necessitatibus at, corporis eveniet.</p>
+          <p class="paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat quasi saepe quisquam ab
+            at eveniet vero eaque, laboriosam laudantium dicta atque libero? Fuga tempora similique placeat
+            necessitatibus at, corporis eveniet.</p>
           <h3 class="heading-tertiary mb-sm">Live adventures like you never have before.</h3>
-          <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam sunt odio illum architecto molestias.eaque quidem nobis.</p>
+          <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam sunt odio illum
+            architecto molestias.eaque quidem nobis.</p>
           <a href="#" class="btn-text">Learn More &rarr;</a>
         </div>
 
         <div class="col-6">
           <div class="composition">
-            <img src="./img/nat-1-large.jpg" alt="photo 1" class="composition__photo composition__photo--p1">
-            <img src="./img/nat-2-large.jpg" alt="photo 2" class="composition__photo composition__photo--p2">
-            <img src="./img/nat-3-large.jpg" alt="photo 3" class="composition__photo composition__photo--p3">
+
+            <img srcset="./img/nat-1.jpg 300w, ./img/nat-1-large.jpg 1000w"
+              size="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px" alt="Photo 1"
+              class="composition__photo composition__photo--p1" src="./img/nat-1-large.jpg">
+            <img srcset="./img/nat-2.jpg 300w, ./img/nat-2-large.jpg 1000w"
+              size="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px" alt="Photo 2"
+              class="composition__photo composition__photo--p2" src="./img/nat-2-large.jpg">
+            <img srcset="./img/nat-3.jpg 300w, ./img/nat-3-large.jpg 1000w"
+              size="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px" alt="Photo 3"
+              class="composition__photo composition__photo--p3" src="./img/nat-3-large.jpg">
+
+            <!-- <img src="./img/nat-1-large.jpg" alt="photo 1" class="composition__photo composition__photo--p1"> -->
+            <!-- <img src="./img/nat-2-large.jpg" alt="photo 2" class="composition__photo composition__photo--p2"> -->
+            <!-- <img src="./img/nat-3-large.jpg" alt="photo 3" class="composition__photo composition__photo--p3"> -->
           </div>
         </div>
 
@@ -85,7 +99,8 @@
           <div class="feature-box">
             <i class="feature-box__icon icon-basic-world"></i>
             <h3 class="heading-tertiary mb-sm">Explore the World</h3>
-            <p class="feature-box__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione corrupti voluptate dolor praesentium dolorum ipsum!</p>
+            <p class="feature-box__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione corrupti
+              voluptate dolor praesentium dolorum ipsum!</p>
           </div>
         </div>
 
@@ -93,7 +108,8 @@
           <div class="feature-box">
             <i class="feature-box__icon icon-basic-compass"></i>
             <h3 class="heading-tertiary mb-sm">Meet Nature</h3>
-            <p class="feature-box__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta omnis quibusdam, nobis architecto ratione consequatur!</p>
+            <p class="feature-box__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta omnis
+              quibusdam, nobis architecto ratione consequatur!</p>
           </div>
         </div>
 
@@ -101,7 +117,8 @@
           <div class="feature-box">
             <i class="feature-box__icon icon-basic-map"></i>
             <h3 class="heading-tertiary mb-sm">Find Your Way</h3>
-            <p class="feature-box__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque fugiat eligendi incidunt, animi illo ipsa libero quod!</p>
+            <p class="feature-box__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque fugiat
+              eligendi incidunt, animi illo ipsa libero quod!</p>
           </div>
         </div>
 
@@ -109,7 +126,8 @@
           <div class="feature-box">
             <i class="feature-box__icon icon-basic-heart"></i>
             <h3 class="heading-tertiary mb-sm">Live a Healthier Life</h3>
-            <p class="feature-box__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, doloremque odio nisi error exercitationem vitae!</p>
+            <p class="feature-box__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur,
+              doloremque odio nisi error exercitationem vitae!</p>
           </div>
         </div>
 
@@ -231,7 +249,7 @@
         <video class="bg-video__content" autoplay loop muted>
           <source src="./img/video.mp4" type="video/mp4">
           <source src="./img/video.webm" type="video/webm">
-            Your browser is not supported!
+          Your browser is not supported!
         </video>
       </div>
 
@@ -248,7 +266,10 @@
           </figure>
           <div class="story__text">
             <h3 class="heading-tertiary">I had the best week ever with my family.</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo molestias voluptatibus sapiente eius. Quibusdam, dolorum dolores quae id distinctio magnam, laborum repellat soluta cumque aspernatur, vel labore voluptates unde minima? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit quae veritatis minima necessitatibus, accusamus maxime?</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo molestias voluptatibus sapiente eius.
+              Quibusdam, dolorum dolores quae id distinctio magnam, laborum repellat soluta cumque aspernatur, vel
+              labore voluptates unde minima? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit
+              quae veritatis minima necessitatibus, accusamus maxime?</p>
           </div>
         </div>
 
@@ -259,13 +280,16 @@
           </figure>
           <div class="story__text">
             <h3 class="heading-tertiary">Wow! My life is completely different now.</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, enim veritatis? Dolorem, cum ipsa! Possimus at quidem temporibus sapiente consequatur ipsa voluptas excepturi error quisquam corporis necessitatibus dolorum, mollitia commodi. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id earum beatae, iure voluptate molestiae nulla debitis vel cum!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, enim veritatis? Dolorem, cum ipsa!
+              Possimus at quidem temporibus sapiente consequatur ipsa voluptas excepturi error quisquam corporis
+              necessitatibus dolorum, mollitia commodi. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id
+              earum beatae, iure voluptate molestiae nulla debitis vel cum!</p>
           </div>
         </div>
 
         <div class="text-center mt-lg">
           <a href="#" class="btn-text">Read all stories &rarr;</a>
-        </div>  
+        </div>
 
       </div>
 
@@ -325,11 +349,15 @@
   <footer class="footer">
 
     <div class="footer__logo-box">
-      <img src="./img/logo-green-2x.png" alt="full logo" class="footer__logo"/>
+      <picture class="footer__logo">
+        <source srcset="./img/logo-green-small-1x.png 1x, ./img/logo-green-small-2x.png 2x" media="(max-width: 37.5em)">
+        <img srcset="./img/logo-green-1x.png 1x, ./img/logo-green-2x.png 2x" alt="full logo" class="footer__logo"
+          src="./img/logo-green-2x.png" />
+      </picture>
     </div>
 
     <div class="row">
-    
+
       <div class="col-6">
         <div class="footer__navigation">
           <ul class="footer__list">
@@ -341,10 +369,13 @@
           </ul>
         </div>
       </div>
-    
+
       <div class="col-6">
         <div class="footer__copyright">
-          Built by <a href="https://bryanbloomquist.com" class="footer__link">Bryan Bloomquist</a> for his online course <a href="#" class="footer__link">Advanced CSS and Sass</a>. Copyright &copy; by Bryan Bloomquist. You are 100% allowed to use this web page for both personal and commercial use, but NOT to claim it as your own design. A credit to the original author, Jonas Schmedtmann, is of course highly appreciated!
+          Built by <a href="https://bryanbloomquist.com" class="footer__link">Bryan Bloomquist</a> for his online course
+          <a href="#" class="footer__link">Advanced CSS and Sass</a>. Copyright &copy; by Bryan Bloomquist. You are 100%
+          allowed to use this web page for both personal and commercial use, but NOT to claim it as your own design. A
+          credit to the original author, Jonas Schmedtmann, is of course highly appreciated!
         </div>
       </div>
 
@@ -362,10 +393,14 @@
         <a href="#tours" class="popup__close">&times;</a>
         <h2 class="heading-secondary mb-md">Start Booking Now</h2>
         <h3 class="heading-tertiary mb-sm">Important &ndash; Please read these terms before booking</h3>
-        <p class="popup__text mb-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla sequi nihil eos quas, vitae voluptatibus ullam dolorum aliquid ea saepe accusantium, facilis veritatis culpa soluta sit excepturi, quos eius nam? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora quo earum blanditiis a magnam voluptas eligendi necessitatibus beatae, magni repellendus omnis veniam est laboriosam, accusantium labore molestiae debitis ducimus inventore.</p>
+        <p class="popup__text mb-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla sequi nihil eos
+          quas, vitae voluptatibus ullam dolorum aliquid ea saepe accusantium, facilis veritatis culpa soluta sit
+          excepturi, quos eius nam? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora quo earum
+          blanditiis a magnam voluptas eligendi necessitatibus beatae, magni repellendus omnis veniam est laboriosam,
+          accusantium labore molestiae debitis ducimus inventore.</p>
         <a href="#" class="btn btn--green">Book Now</a>
       </div>
-  </div>
+    </div>
   </div>
 
   <script src="./js/script.js"></script>
